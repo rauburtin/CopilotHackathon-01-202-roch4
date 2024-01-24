@@ -55,7 +55,7 @@ The requests that the server must attend are the following:
 - **/Validatephonenumber**: 
 
   * Receive by querystring a parameter called phoneNumber 
-  * validate phoneNumber with Spanish format, for example +33666777888
+  * validate phoneNumber with Spanish format, for example +34666777888
   * if phoneNumber is valid return "valid"
   * if phoneNumber is not valid return "invalid"
 

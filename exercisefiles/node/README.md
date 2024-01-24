@@ -81,6 +81,7 @@ The requests that the server must attend are the following:
   * return the code.hex field
 
   > NOTE: Lets try Copilot chat now. Paste the above information and make it as detailed as possible in the Copilot chat text box. Copilot will use by default the open file as context in order to generate the suggestion.
+  
   > NOTE: Do not forget to open color.json file in Visual Studio Code, so CoPilot get all the context to make better recommendations
 
 - **/TellMeAJoke**:

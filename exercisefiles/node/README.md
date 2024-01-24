@@ -64,7 +64,7 @@ The requests that the server must attend are the following:
 
 - **/ValidateSpanishDNI**:
 
-  * Receive by querystring a parameter called dni
+  * Receive by querystring a parameter called dni, for example X12345678T
   * calculate DNI letter
   * if DNI is valid return "valid"
   * if DNI is not valid return "invalid"

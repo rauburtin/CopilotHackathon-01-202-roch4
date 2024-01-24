@@ -22,7 +22,7 @@ dotnet test
 To run the app, open a terminal in the `dotnet` folder and run:
 
 ``` bash
-dotnet run --project .\MinimalAPI\MinimalAPI.csproj
+dotnet run --project ./MinimalAPI/MinimalAPI.csproj
 ```
 
 ### Exercise 1: Introduction

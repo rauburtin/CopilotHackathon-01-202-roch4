@@ -27,7 +27,7 @@ server is listening on port 3000
 ## Plan
 
 
-- Exercise 2: In the NodeServer.js develop the rest of the methods described in the Exercise described in the section below (do not forget to open color.json file in Visual Studio Code, so CoPilot get all the context to make better recommendations)
+- Exercise 2: Add some methods to the web server
 - Exercise 3: Use Copilot to document the code
 - Exercise 4: Build and run tests
 - Exercise 5: Update a dockerfile file, and fill it, in order to create a docker container with a node image that can run the web server
@@ -55,7 +55,7 @@ The requests that the server must attend are the following:
 - **/Validatephonenumber**: 
 
   * Receive by querystring a parameter called phoneNumber 
-  * validate phoneNumber with Spanish format, for example +34666777888
+  * validate phoneNumber with Spanish format, for example +33666777888
   * if phoneNumber is valid return "valid"
   * if phoneNumber is not valid return "invalid"
 
@@ -81,6 +81,7 @@ The requests that the server must attend are the following:
   * return the code.hex field
 
   > NOTE: Lets try Copilot chat now. Paste the above information and make it as detailed as possible in the Copilot chat text box. Copilot will use by default the open file as context in order to generate the suggestion.
+  > NOTE: Do not forget to open color.json file in Visual Studio Code, so CoPilot get all the context to make better recommendations
 
 - **/TellMeAJoke**:
 

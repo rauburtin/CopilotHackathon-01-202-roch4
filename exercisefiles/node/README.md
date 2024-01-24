@@ -87,16 +87,6 @@ The requests that the server must attend are the following:
 - **/TellMeAJoke**:
 
   * Make a call to the joke api and return a random joke using axios (https://official-joke-api.appspot.com/random_joke)
-        
-
-- **/MoviesByDirector**:
-
-  * Receive by querystring a parameter called director
-  * Make a call to the movie api  and return a list of movies of that director using axios
-  * Return the full list of movies
-
-  > **_NOTE:_** This will require to browse to https://www.omdbapi.com/apikey.aspx and request a FREE API Key
-
 
 - **/ParseUrl**:
 

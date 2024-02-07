@@ -5,3 +5,19 @@
 // if the url has other methods, return "method not supported"
 // when server is listening, log "server is listening on port 3000"
 
+const server = require('http').createServer((req, res) => {
+    const url = require('url').parse(req.url, true);
+    const query = url.query;
+    if (url.pathname === '/get') {
+        if (query.key) {
+            res.end('hello ' + query.key);
+        } else {
+            res.end('key not passed');
+        }
+    } else {
+        res.end('method not supported');
+    }
+});
+
+// generate 
+

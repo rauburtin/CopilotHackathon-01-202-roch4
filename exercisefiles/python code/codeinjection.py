@@ -2,6 +2,7 @@ import ctypes
 import sys
 import psutil
 
+
 # Constants
 PROCESS_ALL_ACCESS = 0x1F0FFF
 MEM_COMMIT = 0x1000
